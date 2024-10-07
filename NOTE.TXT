@@ -1,0 +1,14 @@
+<aside class="container__menu">
+            <ul class="lista-menu transparente">
+                <li class="lista-menu__item"><a href=""><span>#</span>home</a></li>
+                <li class="lista-menu__item"><a href=""><span>#</span>works</a></li>
+                <li class="lista-menu__item"><a href=""><span>#</span>about-me</a></li>
+                <li class="lista-menu__item"><a href=""><span>#</span>contacts</a></li>
+            </ul>
+            <div class="">
+                <a href="" class="social"><img src="assests/github.png" alt="Logo do Github"></a>
+                <a href="" class="social"><img src="assests/linkedin.png" alt="Logo do Linkedin"></a>
+                <a href="" class="social"><img src="assests/whatsapp.png" alt="Logo do Whatsapp"></a>
+                <a href="" class="social"><img src="assests/instagram.png" alt="Logo do Instagram"></a>
+            </div>
+        </aside>
