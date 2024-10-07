@@ -69,6 +69,7 @@
 }
 
 .contateme {
+    white-space: nowrap;
     padding: 10px;
     border: 1px solid var(--destaque);
     text-align: center;
