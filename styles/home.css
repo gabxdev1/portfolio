@@ -69,12 +69,11 @@
 }
 
 .contateme {
-    
     padding: 10px;
     border: 1px solid var(--destaque);
     text-align: center;
     flex-grow: 0;
-    width: 148px;
+    white-space: nowrap;
     margin: auto;
 }
 
