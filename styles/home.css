@@ -18,12 +18,12 @@
 
 
 .apresentacao {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
 .texto {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: var(--cinza);
     margin: 16px 0;
 }

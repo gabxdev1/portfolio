@@ -13,13 +13,13 @@
 }
 
 .titulo {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 
 .titulo__destaque {
     color: var(--destaque);
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
