@@ -36,11 +36,14 @@
 }
 
 .img {
-    opacity: 0.8;
-    width: 60vw;
-    border-radius: 50%;
-    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.315);
-    z-index: 1
+    width: 147px;
+    height: 240px;
+    background-image: url(../assests/gabriel.JPG);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    box-shadow: 0px 0px 6px var(--destaque);
+    z-index: 1;
 }
 
 
@@ -79,7 +82,7 @@
 
 .contateme:hover {
     transition: 0.5s;
-    background-color: var(--cinza);
+    background-color: var(--destaque-hover);
 }
 
 
