@@ -12,12 +12,8 @@
 
 }
 
-.titulo {
-    font-size: 1.8rem;
-    font-weight: 600;
-}
 
-.titulo__destaque {
+#titulo__destaque {
     color: var(--destaque);
     font-size: 2rem;
     font-weight: 700;
@@ -26,6 +22,12 @@
 .destaque {
     color: var(--destaque);
     font-weight: 700;
+}
+
+.titulo {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
 }
 
 .container__botao {
