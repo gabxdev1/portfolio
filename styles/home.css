@@ -13,7 +13,9 @@
     flex-direction: column;
     gap: 8px;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
+    white-space: nowrap;
+    
 }
 
 
@@ -26,6 +28,7 @@
     font-size: 1.3rem;
     color: var(--cinza);
     margin: 16px 0;
+    white-space: normal;
 }
 
 .container__apresentacao-foto {
