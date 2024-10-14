@@ -1,12 +1,12 @@
-.about-me {
+#aboutID {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 95vh;
     gap: 2rem;
-    transition: opacity 0.7s ease-in-out;
     padding: 0 1rem; 
+    transition: opacity 0.7s ease-in-out; 
 }
 
 .about-titulo {

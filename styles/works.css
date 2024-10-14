@@ -6,6 +6,7 @@
     height: 95vh;
     gap: 3rem;
     padding: 1rem;
+    transition: opacity 0.7s ease-in-out; 
 }
 
 .card {
