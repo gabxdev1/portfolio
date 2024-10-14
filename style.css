@@ -5,6 +5,7 @@
 @import url(./styles/nav.css);
 @import url(./styles/home.css);
 @import url(./styles/about-me.css);
+@import url(./styles/works.css);
 
 
 @import url(./styles/transition.css);
@@ -12,6 +13,7 @@
 :root {
 
     --background-color: #282C33;
+    --cards: #2f3238;
     --branco: white;
     --destaque: #C778DD;
     --destaque-hover: #c778dd41;
