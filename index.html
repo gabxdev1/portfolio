@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabriel Portfolio</title>
-    <link rel="shortcut icon" href="/assests/FAVICON.PNG" type="image/x-icon">
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assests/FAVICON.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
-    <header id="header">
+    <header id="header" class="hidden">
         <h1><span>G</span>abriel</h1>
        
         <img src="assests/menu.png" alt="menu" id="menu">
@@ -20,8 +20,8 @@
     <nav id="container__navegacao" class="menu-nav">
         <div class="container_listas">
             <ul>
-                <li class="lista-nav">#<a href="">home</a></li>
-                <li class="lista-nav">#<a href="">about-me</a></li>
+                <li class="lista-nav">#<a href="#homeID">home</a></li>
+                <li class="lista-nav">#<a href="#aboutID">about-me</a></li>
                 <li class="lista-nav">#<a href="">projects</a></li>
                 <li class="lista-nav">#<a href="">works</a></li>
                 <li class="lista-nav">#<a href="">contacts</a></li>
@@ -36,37 +36,35 @@
     </nav>
 
 
-    <section class="home">
-        <p class="hello"><span>Hello</span> I'm</p>
-        <h1>Gabriel Oliveira</h1>
-        <h2>Software <span>Engineer</span></h2>
-        <p class="texto">Passion for building robust and scalable systems</p>
-        <a href="https://wa.me/5535997004497?text=Ol%C3%A1%2C%20eu%20sou%20o%20Gabriel." target="_blank">Contact me!!</a>
+    <section class="home" id="homeID">
+        <p class="hello hidden"><span>Hello</span> I'm</p>
+        <h1 class="hidden">Gabriel Oliveira</h1>
+        <h2 class="hidden">Software <span>Engineer</span></h2>
+        <p class="texto hidden">Passion for building robust and scalable systems</p>
+        <a href="https://wa.me/5535997004497?text=Ol%C3%A1%2C%20eu%20sou%20o%20Gabriel." target="_blank" class="hidden">Contact me!!</a>
     </section>
 
 
-    <section class="about-me">
+    <section class="about-me" id="aboutID">
 
-        <div class="about-titulo">
-            <h2><span>#</span>About-me</h2>
-            <hr>
+        <div class="about-titulo" id="aboutMe">
+            <h2 class="hidden"><span>#</span>About-me</h2>
+            <hr class="hidden">
         </div>
 
 
-        <img src="assests/gabriel.JPG" alt="Foto do Gabriel aprensentando o TCC">
+        <img src="assests/gabriel.JPG" alt="Foto do Gabriel aprensentando o TCC" class="hidden">
     
 
-        <p>I am passionate about solving problems and turning ideas into efficient solutions.</p>
+        <p class="hidden">I am passionate about solving problems and turning ideas into efficient solutions.</p>
 
         <ul>
-            <li class="lista">Technical Course in Computer Networks – SENAI (1 and a half years)</li>
-            <li class="lista">Undergraduate Degree in Systems Analysis and Development – UNIS (currently studying)</li>
+            <li class="lista hidden">Technical Course in Computer Networks – SENAI (1 and a half years)</li>
+            <li class="lista hidden">Undergraduate Degree in Systems Analysis and Development – UNIS (currently studying)</li>
         </ul>
 
     </section>
 
-
-        
     <script src="script.js"></script>
         
 </body>

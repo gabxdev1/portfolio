@@ -1,6 +1,6 @@
 .menu-nav {
     position: absolute;
-    width: 100vw;
+    width: calc(100vw - 1rem);
     height: 0;
     top: 0;
     right: 0;

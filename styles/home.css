@@ -3,7 +3,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    height: calc(100vh - 56px);
+    height: 100vh;
     padding: calc(4rem - 56px) 1rem 4rem 1rem;
     font-family: var(--fonte-principal);
     font-weight: 500;
