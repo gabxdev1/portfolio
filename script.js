@@ -46,7 +46,7 @@ elements.forEach( (element) => myObserver.observe(element))
 
 
 const container_lista = document.querySelector(".container_listas")
-const selevents = ['touchmove', 'touchend', 'click']
+const selevents = ['touchmove', 'click']
 
 selevents.forEach(selevent => {
     container_lista.addEventListener(selevent, (e) => {
