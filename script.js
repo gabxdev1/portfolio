@@ -16,6 +16,9 @@ menu.addEventListener("click", (evento) => {
             menu.src = 'assests/menu.png';
             nav.classList.remove('menu-nav-transition')
         }
+
+        menu.style.opacity = '0.4';
+        setTimeout(100)
         menu.style.opacity = '1';
     }, 250);
 })
