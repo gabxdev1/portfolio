@@ -3,8 +3,11 @@ const nav = document.getElementById('container__navegacao')
 const home = document.querySelector('.home')
 const aboutMe = document.getElementById('aboutMe')
 
+const listaNav = document.querySelectorAll('.lista-nav')
 
-menu.addEventListener("click", (evento) => {
+
+
+function verificar() {
     menu.style.opacity = '0';
 
     setTimeout(() => {
@@ -23,7 +26,15 @@ menu.addEventListener("click", (evento) => {
         }
         menu.style.opacity = '1';
     }, 300);
+}
+
+listaNav.forEach((elementos) => {
+    elementos.addEventListener("click", function (evento) {
+        nav.classList.remove('menu-nav-transition')
+        verificar()
+    })
 })
+
 
 const myObserver = new IntersectionObserver( (entries) => {
     entries.forEach( (entry) => {
