@@ -1,0 +1,21 @@
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Cor e estilo da trilha da barra de rolagem */
+::-webkit-scrollbar-track {
+    background: var(--destaque-hover); /* Cor de fundo da trilha */
+}
+
+/* Cor e estilo do polegar da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background: var(--destaque); 
+    border-radius: 10px;
+    border: 1px solid #f1f1f1; 
+}
+
+/* Mudança de cor ao passar o mouse sobre a barra de rolagem */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Cor do polegar ao passar o mouse */
+}
