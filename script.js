@@ -6,7 +6,6 @@ menu.addEventListener("click", (evento) => {
     menu.style.opacity = '0';
 
     setTimeout(() => {
-
         const menuImage = menu.src.split('/').pop();
 
         if (menuImage === 'menu.png') {
@@ -17,8 +16,6 @@ menu.addEventListener("click", (evento) => {
             nav.classList.remove('menu-nav-transition')
         }
 
-        menu.style.opacity = '0.4';
-        setTimeout(100)
         menu.style.opacity = '1';
-    }, 250);
+    }, 300);
 })
