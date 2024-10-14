@@ -1,0 +1,30 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: calc(100vh - 56px);
+    padding: calc(4rem - 56px) 1rem 4rem 1rem;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    gap: 1.2rem;
+}
+
+.home h1 {
+    font-size: 3.5rem;
+}
+
+.hello {
+    font-size: 1.6rem;
+}
+
+.home h2 {
+    font-size: 1.6rem;
+}
+
+.texto {
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--cinza);
+    margin-top: 3rem;
+}

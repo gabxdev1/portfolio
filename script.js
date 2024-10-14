@@ -1,5 +1,6 @@
 const menu = document.getElementById('menu')
 const nav = document.getElementById('container__navegacao')
+const header = document.getElementById('header')
 
 
 menu.addEventListener("click", (evento) => {
@@ -18,4 +19,9 @@ menu.addEventListener("click", (evento) => {
 
         menu.style.opacity = '1';
     }, 300);
+})
+
+
+window.addEventListener('resize', function() {
+    console.log(header.clientHeight)
 })
