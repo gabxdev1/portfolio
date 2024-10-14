@@ -8,6 +8,7 @@
     font-family: var(--fonte-principal);
     font-weight: 500;
     gap: 1.2rem;
+    transition: opacity 0.7s ease-in-out; 
 }
 
 .home h1 {
@@ -27,4 +28,16 @@
     font-weight: normal;
     color: var(--cinza);
     margin-top: 3rem;
+}
+
+.home a {
+    font-weight: 500;
+    border: 1px solid var(--destaque);
+    align-self: center;
+    padding: 13px 16px;
+    
+}
+
+.home a:hover {
+    background-color: var(--destaque-hover);
 }
