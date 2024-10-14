@@ -1,14 +1,46 @@
-<aside class="container__menu">
-            <ul class="lista-menu transparente">
-                <li class="lista-menu__item"><a href=""><span>#</span>home</a></li>
-                <li class="lista-menu__item"><a href=""><span>#</span>works</a></li>
-                <li class="lista-menu__item"><a href=""><span>#</span>about-me</a></li>
-                <li class="lista-menu__item"><a href=""><span>#</span>contacts</a></li>
-            </ul>
-            <div class="">
-                <a href="" class="social"><img src="assests/github.png" alt="Logo do Github"></a>
-                <a href="" class="social"><img src="assests/linkedin.png" alt="Logo do Linkedin"></a>
-                <a href="" class="social"><img src="assests/whatsapp.png" alt="Logo do Whatsapp"></a>
-                <a href="" class="social"><img src="assests/instagram.png" alt="Logo do Instagram"></a>
-            </div>
-        </aside>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Portfolio</title>
+    <link rel="shortcut icon" href="/assests/FAVICON.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div>
+            <img src="assests/logo.png" alt="Logo com as iniciais do meu nome">
+            <h1>Gabriel</h1>
+        </div>
+
+        <img src="assests/menu.png" alt="menu">
+
+    </header>
+
+    <nav id="container__navegacao">
+        <ul>
+            <li>#<a href="">home</a></li>
+            <li>#<a href="">about-me</a></li>
+            <li>#<a href="">projects</a></li>
+            <li>#<a href="">works</a></li>
+            <li>#<a href="">contacts</a></li>
+        </ul>
+
+        <ul>
+            <a href="https://github.com/gabs-olid" target="_blank"><img src="assests/github.png" alt="Logo do Github"></a>
+            <a href="#"><img src="assests/linkedin.png" alt="Logo do Linkedin"></a>
+            <a href="https://wa.me/5535997004497?text=Ol%C3%A1%2C%20eu%20sou%20o%20Gabriel." target="_blank"><img src="assests/whatsapp.png" alt="Logo do Whatsapp"></a>
+            <a href="https://www.instagram.com/gabs.olid/" target="_blank"><img src="assests/instagram.png" alt="Logo do Instagram"></a>
+        </ul>
+
+    </nav>
+
+
+        
+
+        
+</body>
+</html>

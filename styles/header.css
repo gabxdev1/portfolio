@@ -1,98 +1,24 @@
-.cabecalho {
-    width: 100vw;
-    height: 100vh;
-    padding: 1rem;
-}
-
-.container {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
-
-}
-
-.titulo {
-    font-size: 1.8rem;
-    font-weight: 600;
-}
-
-#titulo__destaque {
-    color: var(--destaque);
-    font-size: 2rem;
-    font-weight: 700;
-}
-
-.destaque {
-    color: var(--destaque);
-    font-weight: 700;
-}
-
-
-
-.container__botao {
-    display: none;
-}
-
-.cabecalho__menu-hamburguer {
-    width: 24px;
-    height: 24px;
-    background-image: url(../assests/menu.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    display: inline-block;
-}
-
-.container__imagem {
+    z-index: 5;
     padding: 1rem;
 }
 
-.container__nav {
-    z-index: 10;
-    display: none;
-    position: absolute;
-    top: 100%;
-    right: 0;
-    width: 100vw;
-    height: 92vh;
-    background-color: var(--background-color);
-} 
 
-.container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburguer {
-    transition: 0.5s;
-    background-image: url(../assests/menu-fechar.png);
-}
-
-.container__botao:checked ~ .container__nav {
-    display: block;
-}
-
-
-.container__nav-flex {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    height: 100%;
-}
-
-.lista-menu {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+h1 {
     font-size: 1.5rem;
-    font-weight: 600;
 }
 
-.container__social {
-    display: flex;
-    gap: 24px;
-    align-items: center;
-    justify-content: center;
+span {
+    color: var(--destaque);
 }
 
-.container__social > a img {
-    width: 32px;
-    height: 32px;
+#menu {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
 }
 
