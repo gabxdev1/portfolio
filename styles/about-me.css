@@ -33,7 +33,6 @@
     font-weight: 500;
     font-size: 0.9rem;
     text-align: center;
-    margin-bottom: 1rem;
 }
 
 .about-me ul {
@@ -62,10 +61,10 @@
 }
 
 
-img {
+.about-me img {
     width: 300px;
     height: 380px;
     object-fit: cover;
     object-position: top center;
-    box-shadow: 1px 2px 1px var(--destaque-hover);
+    box-shadow: 0 0 5px 1px var(--destaque-hover);
 }
