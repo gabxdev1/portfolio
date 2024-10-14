@@ -4,7 +4,6 @@ const home = document.querySelector('.home')
 const aboutID = document.getElementById('aboutID')
 const works = document.getElementById('worksID')
 
-const listaNav = document.querySelectorAll('.lista-nav')
 
 
 
@@ -31,14 +30,6 @@ function verificar() {
     }, 300);
 }
 
-listaNav.forEach((elementos) => {
-    elementos.addEventListener("click", function (evento) {
-        nav.classList.remove('menu-nav-transition')
-        verificar()
-    })
-})
-
-
 const myObserver = new IntersectionObserver( (entries) => {
     entries.forEach( (entry) => {
         if (entry.isIntersecting) {
@@ -55,10 +46,11 @@ elements.forEach( (element) => myObserver.observe(element))
 
 
 const container_lista = document.querySelector(".container_listas")
-const selevents = ['touchmove', 'touchend']
+const selevents = ['touchmove', 'touchend', 'click']
 
 selevents.forEach(selevent => {
     container_lista.addEventListener(selevent, (e) => {
+        console.log('fechar')
         nav.classList.remove('menu-nav-transition')
         verificar()
     })
