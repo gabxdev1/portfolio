@@ -16,8 +16,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 1.3rem;
-
     padding: 0 1rem;
 }
 
@@ -51,8 +51,8 @@
 #footerID p {
     color: var(--cinza);
     font-size: 1rem;
-
     padding: 0 1rem 1rem 1rem;
+    text-align: center;
 }
 
 
