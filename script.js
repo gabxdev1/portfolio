@@ -48,16 +48,16 @@ elements.forEach( (element) => myObserver.observe(element))
 const container_lista = document.querySelector(".container_listas")
 window.addEventListener('scroll', (e) => {
     menuImage = menu.src.split('/').pop();
-    
+
     if (menuImage === 'menu-fechar.png') {
         verificar()
     }
 })
 
-container_lista.addEventListener('click', (e) => {
+/*container_lista.addEventListener('click', (e) => {
         nav.classList.remove('menu-nav-transition')
         verificar()
-})
+})*/
 
 
 
