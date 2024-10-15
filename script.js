@@ -50,7 +50,6 @@ const selevents = ['touchmove', 'click']
 
 selevents.forEach(selevent => {
     container_lista.addEventListener(selevent, (e) => {
-        console.log('fechar')
         nav.classList.remove('menu-nav-transition')
         verificar()
     })
