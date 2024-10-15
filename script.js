@@ -3,16 +3,16 @@ const nav = document.getElementById('container__navegacao')
 const home = document.querySelector('.home')
 const aboutID = document.getElementById('aboutID')
 const works = document.getElementById('worksID')
-
+let menuImage
 
 
 
 function verificar() {
     menu.style.opacity = '0';
+    menuImage = menu.src.split('/').pop();
 
     setTimeout(() => {
-        const menuImage = menu.src.split('/').pop();
-
+        
         if (menuImage === 'menu.png') {
             menu.src = './assests/menu-fechar.png';
             nav.classList.toggle('menu-nav-transition');
@@ -46,13 +46,17 @@ elements.forEach( (element) => myObserver.observe(element))
 
 
 const container_lista = document.querySelector(".container_listas")
-const selevents = ['touchmove', 'click']
+window.addEventListener('scroll', (e) => {
+    menuImage = menu.src.split('/').pop();
+    
+    if (menuImage === 'menu-fechar.png') {
+        verificar()
+    }
+})
 
-selevents.forEach(selevent => {
-    container_lista.addEventListener(selevent, (e) => {
+container_lista.addEventListener('click', (e) => {
         nav.classList.remove('menu-nav-transition')
         verificar()
-    })
 })
 
 
