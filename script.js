@@ -10,7 +10,6 @@ let menuImage
 function verificar() {
     menu.style.opacity = '0';
     menuImage = menu.src.split('/').pop();
-
     setTimeout(() => {
         
         if (menuImage === 'menu.png') {
@@ -49,9 +48,16 @@ const container_lista = document.querySelector(".container_listas")
 window.addEventListener('scroll', (e) => {
     menuImage = menu.src.split('/').pop();
 
-    if (menuImage === 'menu-fechar.png') {
-        verificar()
+    if(menuImage == 'menu-fechar.png') {
+        menu.src = './assests/menu.png';
+        nav.classList.remove('menu-nav-transition')
+        aboutID.style.opacity = '1'
+        home.style.opacity = '1'
+        works.style.opacity = '1'
+        menu.style.opacity = '1';
     }
+
+    
 })
 
 /*container_lista.addEventListener('click', (e) => {
