@@ -1,0 +1,64 @@
+#projectsID {
+    height: 95vh;
+    padding: 1rem;
+}
+
+.container_card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.3rem;
+}
+
+.cards {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--cinza);
+}
+
+.cards img {
+    max-width: 280.58px;
+    max-height: 201px;
+}
+
+.cards > p {
+    font-size: 1rem;
+    color: var(--cinza);
+    padding: 8px;
+    word-spacing: 8px;
+}
+
+.container__infos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-top: 1px solid var(--cinza);
+    padding: 16px;
+}
+
+.container__infos h2 {
+    font-weight: 500;
+    color: var(--branco);
+    font-size: 1.3rem;
+}
+
+.container__infos p {
+    font-size: 1rem;
+    color: var(--cinza);
+    
+}
+
+.container__infos a {
+    font-weight: 400;
+    font-size: 1rem;
+    border: 1px solid var(--destaque);
+    padding: 8px 16px;
+    text-align: center;
+    align-self: flex-start;
+}
+
+.container__infos a:hover {
+    background-color: var(--destaque-hover);
+}
