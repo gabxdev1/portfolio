@@ -3,6 +3,7 @@ const nav = document.getElementById('container__navegacao')
 const home = document.querySelector('.home')
 const aboutID = document.getElementById('aboutID')
 const works = document.getElementById('worksID')
+const footer = document.getElementById('footerID')
 let menuImage
 
 
@@ -18,12 +19,14 @@ function verificar() {
             home.style.opacity = '0'
             aboutID.style.opacity = '0'
             works.style.opacity = '0'
+            footer.style.opacity = '0'
         } else {
             menu.src = './assests/menu.png';
             nav.classList.remove('menu-nav-transition')
             aboutID.style.opacity = '1'
             home.style.opacity = '1'
             works.style.opacity = '1'
+            footer.style.opacity = '1'
         }
         menu.style.opacity = '1';
     }, 300);
@@ -55,6 +58,7 @@ window.addEventListener('scroll', (e) => {
         home.style.opacity = '1'
         works.style.opacity = '1'
         menu.style.opacity = '1';
+        footer.style.opacity = '1'
     }
 
     
