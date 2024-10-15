@@ -60,10 +60,10 @@ window.addEventListener('scroll', (e) => {
     
 })
 
-/*container_lista.addEventListener('click', (e) => {
+container_lista.addEventListener('click', (e) => {
         nav.classList.remove('menu-nav-transition')
         verificar()
-})*/
+})
 
 
 
