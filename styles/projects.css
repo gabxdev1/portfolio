@@ -20,6 +20,7 @@
 }
 
 .cards img {
+    width: 100%;
     max-width: 280.58px;
     max-height: 201px;
 }
