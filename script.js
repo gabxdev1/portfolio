@@ -7,23 +7,6 @@ const footer = document.getElementById('footerID')
 const projects = document.getElementById('projectsID')
 let menuImage
 
-import { Analytics } from "./node_modules/@vercel/analytics/dist/react"
-
-export default function RootLayout({ children }) {
-    return (
-      <html lang="en">
-        <head>
-          <title>Gabriel Portfolio</title>
-        </head>
-        <body>
-          {children}
-          <Analytics />
-        </body>
-      </html>
-    );
-  }
-
-
 
 function verificar() {
     menu.style.opacity = '0';
