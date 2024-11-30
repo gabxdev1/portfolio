@@ -15,3 +15,4 @@ Sou Gabriel, um desenvolvedor backend apaixonado por transformar ideias em solu�
 - **Demonstrações interativas**: Aplicações desenvolvidas para solucionar problemas reais  
 
 🌟 *"Transformando ideias em soluções robustas e escaláveis, um código por vez."*
+ter
