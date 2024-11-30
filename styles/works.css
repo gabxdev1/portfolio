@@ -6,7 +6,9 @@
     height: 95vh;
     gap: 3rem;
     padding: 1rem;
-    transition: opacity 0.7s ease-in-out; 
+    transition: opacity 0.7s ease-in-out;
+    position: relative;
+    overflow: hidden;
 }
 
 .card {
@@ -33,3 +35,37 @@
     font-size: 0.9rem;
     color: var(--cinza);
 }
+
+.quadrado155W {
+    width: 155px;
+    height: 155px;
+    border: 1px solid var(--cinza);
+    position: absolute;
+    left: -80px;
+    top: 50%;
+    display: none;
+}
+
+.dotted-squareW {
+    width: 103px;
+    height: 120px;
+    background-color: transparent; 
+    background-image: radial-gradient(circle, var(--cinza) 1.97px, transparent 2px);
+    background-size: 20px 20px;
+    position: absolute;
+    right: -40px;
+    top: 70%;
+    display: none;
+}
+  
+
+@media screen and (min-width: 1280px) {
+    .quadrado155W {
+        display: block;
+    }
+
+    .dotted-squareW {
+        display: block;
+    }
+}
+

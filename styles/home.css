@@ -9,6 +9,8 @@
     font-weight: 500;
     gap: 1.2rem;
     transition: opacity 0.7s ease-in-out; 
+    position: relative;
+    overflow: hidden;
 }
 
 .home h1 {
@@ -41,4 +43,20 @@
 
 .home a:hover {
     background-color: var(--destaque-hover);
+}
+
+.quadrado91 {
+    width: 91px;
+    height: 91px;
+    border: 1px solid var(--cinza);
+    position: absolute;
+    right: -20px;
+    top: 60%;
+    display: none;
+}
+
+@media screen and (min-width: 1280px) {
+    .quadrado91 {
+        display: block;
+    }
 }
