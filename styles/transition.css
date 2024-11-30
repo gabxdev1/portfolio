@@ -2,14 +2,14 @@
     opacity: 0;
     filter: blur(6px);
     transform: translateX(-100%);
-    transition: all 0.9s;
+    transition: all 0.5s;
 }
 
 .show {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
-    transition: all 0.9;
+    transition: all 0.5;
 }
 
 .home :nth-child(2) {

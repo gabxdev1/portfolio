@@ -7,20 +7,17 @@
     <link rel="shortcut icon" href="./assests/FAVICON.PNG" type="image/x-icon">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./style.css">
-    
+    <link href="https://unpkg.com/boxicons/css/boxicons.min.css" rel="stylesheet">
 </head>
 <body>
-
     <header id="header" class="hidden">
         <h1 translate="no" ><span>G</span>abriel</h1>
-       
         <img src="assests/menu.png" alt="menu" id="menu" onclick="verificar()">
-
     </header>
 
     <nav id="container__navegacao" class="menu-nav" translate="no">
         <div class="container_listas">
-            <ul>
+            <ul class="container-nav">
                 <li class="lista-nav" translate="no">#<a href="#homeID" class="navegacao">home</a></li>
                 <li class="lista-nav" translate="no">#<a href="#aboutID" class="navegacao">about-me</a></li>
                 <li class="lista-nav" translate="no">#<a href="#worksID" class="navegacao">works</a></li>
@@ -28,16 +25,17 @@
                 <li class="lista-nav">#<a href="" class="navegacao">skilss</a></li>
             </ul>
             <ul class="container_social" translate="no">
-                <li><a href="https://github.com/gabs-olid" target="_blank"><img src="assests/github.png" alt="Logo do Github"></a></li>
-                <li><a href="#"><img src="assests/linkedin.png" alt="Logo do Linkedin"></a></li>
-                <li><a href="https://wa.me/5535997004497?text=Ol%C3%A1%2C%20eu%20sou%20o%20Gabriel." target="_blank"><img src="assests/whatsapp.png" alt="Logo do Whatsapp"></a></li>
-                <li><a href="https://www.instagram.com/gabs.olid/" target="_blank"><img src="assests/instagram.png" alt="Logo do Instagram"></a></li>
+                <li class="container-linha"><hr  class="linha"></li>
+                <li class="transform"><a href="https://github.com/gabs-olid" target="_blank"><img src="assests/github.png" alt="Logo do Github"></a></li>
+                <li class="transform"><a href="#"><img src="assests/linkedin.png" alt="Logo do Linkedin"></a></li>
+                <li class="transform"><a href="https://wa.me/5535997004497?text=Ol%C3%A1%2C%20eu%20sou%20o%20Gabriel." target="_blank"><img src="assests/whatsapp.png" alt="Logo do Whatsapp"></a></li>
+                <li class="transform"><a href="https://www.instagram.com/gabs.olid/" target="_blank"><img src="assests/instagram.png" alt="Logo do Instagram"></a></li>
             </ul>
         </div>
     </nav>
 
 
-    <section class="home" id="homeID">
+    <section class="home hide" id="homeID">
         <p class="hello hidden"><span style="display: inline;">Hello </span>I'm</p>
         <h1 class="hidden" translate="no">Gabriel Oliveira</h1>
         <h2 class="hidden">Software <span style="display: inline;">Engineer</span></h2>
@@ -46,7 +44,7 @@
     </section>
 
 
-    <section class="about-me" id="aboutID">
+    <section class="about-me hide" id="aboutID">
 
         <div class="about-titulo" id="aboutMe">
             <h2 class="hidden"><span>#</span>About-me</h2>
@@ -67,7 +65,7 @@
     </section>
 
 
-    <section class="works" id="worksID">
+    <section class="works hide" id="worksID">
         <div class="about-titulo" id="">
             <h2 class="hidden"><span>#</span>Work Experiences</h2>
             <hr class="hidden">
@@ -80,7 +78,7 @@
         </div>
     </section>
 
-    <section id="projectsID">
+    <section id="projectsID" class="hide">
         <div class="about-titulo" id="">
             <h2 class="hidden"><span>#</span>Projects</h2>
             <hr class="hidden">
@@ -107,14 +105,18 @@
 
     </section>
 
-    <!--<section id="skilsID">
+    <section id="skilsID">
         <div class="about-titulo" id="">
             <h2 class="hidden"><span>#</span>Skills</h2>
             <hr class="hidden">
         </div>
-    </section>-->
 
-    <footer id="footerID">
+        <div class="container__skills"> 
+            <i class='bx bxl-mongodb my-icon'></i>
+        </div>
+    </section>
+
+    <footer id="footerID" class="hide">
         <hr>
         <div class="contato">
             <h2 translate="no"><span>G</span>abriel</h2>

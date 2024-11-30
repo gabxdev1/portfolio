@@ -14,7 +14,6 @@
 @import url(./styles/transition.css);
 
 :root {
-
     --background-color: #282C33;
     --cards: #2f3238;
     --branco: white;
@@ -23,7 +22,6 @@
     --cinza: #ABB2BF;
     --fonte-principal: "Fira Code", monospace;
     --transparente: rgba(255, 255, 255, 0);
-
 }
 
 * {
