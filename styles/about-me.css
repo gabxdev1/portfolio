@@ -98,9 +98,32 @@
     .quadrado155 {
         display: block;
     }
-
     .dotted-square {
         display: block;
+    }
+    .about-titulo {
+        font-size: 2rem; 
+    }
+    .about-me p { 
+        font-size: 1.4rem;
+    }
+
+    .lista {
+        font-size: 1.2rem;
+    }
+
+    #aboutID {
+        gap: 3.5rem;
+    }
+
+    .about-me img {
+        width: 350px;
+        height: 545px;
+        
+    }
+
+    .about-me ul {
+        gap: 1.5rem;
     }
 }
 

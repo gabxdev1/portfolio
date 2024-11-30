@@ -59,4 +59,20 @@
     .quadrado91 {
         display: block;
     }
+
+    .home h1 {
+        font-size: 4rem;
+    }
+    
+    .hello {
+        font-size: 2.1rem;
+    }
+    
+    .home h2 {
+        font-size: 2.1rem;
+    }
+    
+    .texto {
+        font-size: 1.5rem;
+    }
 }

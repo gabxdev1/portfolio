@@ -38,6 +38,10 @@ span {
         position: fixed;
     }
 
+    h1 {
+        font-size: 2rem;
+    }
+
 
     
 }
