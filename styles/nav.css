@@ -8,7 +8,7 @@
     left: 0;
     z-index: 4;
     overflow: hidden;
-    transition: height 1s ease-in-out; 
+    transition: height 1s ease-in-out;
 }
 
 .menu-nav-transition {
@@ -75,6 +75,7 @@
         flex-direction: column;
         position: fixed;
         left: 20px;
+        animation: animationSocials 3.5s ease-out 0.1s;
     }
 
     .linha {
@@ -98,5 +99,28 @@
     .container-nav {
         display: flex;
     }
+
+    @keyframes animationSocials {
+        0% {
+            transform: translateY(-350px);
+        }
+        30% {
+            transform: translateY(0px);
+        }
+        50% {
+            transform: translateY(-25px); 
+        }
+        70% {
+            transform: translateY(0px); 
+        }
+        85% {
+            transform: translateY(-25px); 
+        }
+        100% {
+            transform: translateY(0px); 
+        }
+    }
+
+    
     
 }
