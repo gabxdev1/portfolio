@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html lang="en" hreflang="en">
+<html lang="en">
 <head  dir="ltr">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfólio de Gabriel Oliveira Durães, engenheiro de software backend. Transformando ideias em soluções robustas e escaláveis.">
+    <meta name="description" content="Portfólio de Gabriel Oliveira Durães, engenheiro de software backend. Transformo ideias em soluções robustas e escaláveis.">
     <meta name="keywords" content="Gabriel Oliveira Durães, engenheiro de software, backend, portfólio, soluções escaláveis, desenvolvimento web, desenvolvimento de software, dev, programador, software engineer">
     <meta name="author" content="Gabriel Oliveira Durães">
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Gabriel Oliveira Durães - Portfólio">
-    <meta property="og:description" content="Portfólio de Gabriel Oliveira Durães, engenheiro de software backend. Transformando ideias em soluções escaláveis.">
+    <meta name="distribution" content="web">
+    <meta property="og:description" content="Portfólio de Gabriel Oliveira Durães, engenheiro de software backend. Transformo ideias em soluções escaláveis.">
     <meta property="og:image" content="https://www.gabxdev.com.br/assests/wallpaper.png">
     <meta property="og:url" content="https://www.gabxdev.com.br">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gabriel Oliveira Durães - Portfólio">
-    <meta name="twitter:description" content="Portfólio de Gabriel Oliveira Durães, engenheiro de software backend. Transformando ideias em soluções escaláveis.">
+    <meta name="twitter:description" content="Portfólio de Gabriel Oliveira Durães, engenheiro de software backend. Transformo ideias em soluções escaláveis.">
     <meta name="twitter:image" content="https://www.gabxdev.com.br/assests/wallpaper.png">
+    <link rel="canonical" href="https://www.gabxdev.com.br">
     <title translate="no">Gabriel Oliveira Durães - Portfólio</title>
     <link rel="shortcut icon" href="./assests/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./styles/reset.css">
@@ -31,11 +33,11 @@
     <nav id="container__navegacao" class="menu-nav" translate="no">
         <div class="container_listas">
             <ul class="container-nav">
-                <li class="lista-nav" translate="no">#<a href="#homeID" class="navegacao">home</a></li>
-                <li class="lista-nav" translate="no">#<a href="#aboutID" class="navegacao">about-me</a></li>
-                <li class="lista-nav" translate="no">#<a href="#worksID" class="navegacao">works</a></li>
-                <li class="lista-nav" translate="no">#<a href="#projectsID" class="navegacao">projects</a></li>
-                <li class="lista-nav">#<a href="" class="navegacao">skilss</a></li>
+                <li class="lista-nav" translate="no">#<a href="#homeID" target="_self" class="navegacao">home</a></li>
+                <li class="lista-nav" translate="no">#<a href="#aboutID" target="_self" class="navegacao">about-me</a></li>
+                <li class="lista-nav" translate="no">#<a href="#worksID" target="_self" class="navegacao">works</a></li>
+                <li class="lista-nav" translate="no">#<a href="#projectsID" target="_self" class="navegacao">projects</a></li>
+                <li class="lista-nav">#<a href="" target="_self" class="navegacao">skilss</a></li>
             </ul>
             <ul class="container_social" translate="no">
                 <li class="container-linha"><hr  class="linha"></li>
@@ -109,7 +111,7 @@
 
             <div class="cards hidden">
 
-                <img src="assests/card.png" alt="">
+                <img src="assests/card.png" alt="Foto do Projeto">
 
                 <p class="" translate="no">HTML SCSS Python Flask</p>
 
@@ -157,6 +159,61 @@
 
     </footer>
 
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Gabriel Oliveira Durães",
+            "jobTitle": "Backend Software Engineer Engenheiro de Software Developer",
+            "url": "https://www.gabxdev.com.br",
+            "image": "https://www.gabxdev.com.br/assests/gabriel.jpeg",
+            "description": "Portfólio de Gabriel Oliveira Durães, engenheiro de software backend. Transformo ideias em soluções robustas e escaláveis.",
+            "email": "mailto:bielepicgame14@gmail.com",
+            "sameAs": [
+              "https://github.com/gabs-olid",
+              "https://www.linkedin.com/in/",
+              "https://www.instagram.com/gabs.olid/",
+              "https://wa.me/5535997004497?text=Olá,%20eu%20sou%20o%20Gabriel"
+            ],
+            "worksFor": {
+                "@type": "Organization",
+                "name": "Rx Construtora"
+            },
+            "alumniOf": [
+              {
+                "@type": "EducationalOrganization",
+                "name": "SENAI",
+                "description": "Technical Course in Computer Networks"
+              },
+              {
+                "@type": "EducationalOrganization",
+                "name": "UNIS",
+                "description": "Undergraduate Degree in Systems Analysis and Development"
+              }
+            ],
+            "knowsAbout": [
+                "JavaScript",
+                "Node.js",
+                "C",
+                "Java",
+                "MongoDB",
+                "SQL",
+                "HTML",
+                "CSS"
+            ],
+            "contactPoint": [
+                {
+                    "@type": "ContactPoint",
+                    "telephone": "+55 35 99700-4497",
+                    "contactType": "Personal",
+                    "email": "mailto:bielepicgame14@gmail.com",
+                    "areaServed": "Brazil",
+                    "availableLanguage": ["Portuguese", "English"]
+                }
+            ]
+          }
+    </script>
+        
     <script type="module" src="script.js" ></script>    
 </body>
 </html>
