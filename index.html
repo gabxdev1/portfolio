@@ -1,315 +1,358 @@
 <!DOCTYPE html>
-<html lang="en">
-<head  dir="ltr">
+<html lang="pt-BR">
+<head dir="ltr">
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfólio de Gabriel Oliveira Durães, engenheiro de software no Itaú Unibanco. Transformo ideias em soluções robustas e escaláveis.">
-    <meta name="keywords" content="Gabriel Oliveira Durães, engenheiro de software, backend, portfólio, soluções escaláveis, desenvolvimento web, desenvolvimento de software, dev, programador, software engineer">
-    <meta name="author" content="Gabriel Oliveira Durães">
-    <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Gabriel Oliveira Durães - Portfólio">
-    <meta name="distribution" content="web">
-    <meta property="og:description" content="Portfólio de Gabriel Oliveira Durães, engenheiro de software no Itaú Unibanco. Transformo ideias em soluções escaláveis.">
+    <meta name="description" content="Gabriel Oliveira Duraes e engenheiro de software no Itau Unibanco, com foco em credito rotativo, sistemas backend de alta disponibilidade e processamento em tempo real. Portfolio com projetos, arquiteturas e stack Java, Python, AWS, Kafka, RabbitMQ e Datadog.">
+    <meta name="keywords" content="Gabriel Oliveira Duraes, engenheiro de software, Itau Unibanco, credito rotativo, Java, Python, AWS, Kafka, RabbitMQ, Datadog, Rinha de Backend, backend high performance, portfolio">
+    <meta name="author" content="Gabriel Oliveira Duraes">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <meta name="language" content="pt-BR">
+    <meta name="theme-color" content="#282C33">
+
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Gabriel Oliveira Duraes - Portfolio">
+    <meta property="og:title" content="Gabriel Oliveira Duraes | Engenheiro de Software Backend">
+    <meta property="og:description" content="Engenheiro de software no Itau Unibanco, atuando com credito rotativo, alta disponibilidade, Java, Python, AWS, Kafka, RabbitMQ e Datadog.">
+    <meta property="og:url" content="https://www.gabxdev.com.br/">
     <meta property="og:image" content="https://www.gabxdev.com.br/assests/wallpaper.jpg">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:url" content="https://www.gabxdev.com.br">
-    <meta property="og:type" content="website">
+    <meta property="og:image:alt" content="Portfolio de Gabriel Oliveira Duraes com foco em engenharia de software backend">
+
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Gabriel Oliveira Durães - Portfólio">
-    <meta name="twitter:description" content="Portfólio de Gabriel Oliveira Durães, engenheiro de software no Itaú Unibanco. Transformo ideias em soluções escaláveis.">
+    <meta name="twitter:title" content="Gabriel Oliveira Duraes | Engenheiro de Software Backend">
+    <meta name="twitter:description" content="Portfolio de Gabriel Oliveira Duraes: Itau Unibanco, credito rotativo, Java, Python, AWS, Kafka, RabbitMQ e Datadog.">
     <meta name="twitter:image" content="https://www.gabxdev.com.br/assests/wallpaper.jpg">
-    <meta name="twitter:image:alt" content="Wallpaper representando o portfólio de Gabriel Oliveira Durães">
-    <meta property="og:site_name" content="Gabriel Oliveira Durães - Portfólio">
+    <meta name="twitter:image:alt" content="Portfolio profissional de Gabriel Oliveira Duraes">
+
     <link rel="canonical" href="https://www.gabxdev.com.br/">
-    <title translate="no">Gabriel Oliveira Durães - Portfólio</title>
+    <link rel="manifest" href="/manifest.json">
     <link rel="shortcut icon" href="./assests/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <title translate="no">Gabriel Oliveira Duraes | Engenheiro de Software Backend no Itau Unibanco</title>
+
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./style.css">
     <link href="https://unpkg.com/boxicons/css/boxicons.min.css" rel="stylesheet">
+
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@id": "https://gabxdev.com.br",
-            "@type": "WebPage",
-            "name": "Gabriel Oliveira Durães - Portfólio",
-            "url": "https://www.gabxdev.com.br",
-            "description": "Portfólio de Gabriel Oliveira Durães, engenheiro de software backend no Itaú Unibanco. Transformo ideias em soluções robustas e escaláveis.",
-            "mainEntity": {
-                "@type": "Person",
-                "name": "Gabriel Oliveira Durães",
-                "jobTitle": "Software Engineer at Itaú Unibanco",
-                "url": "https://www.gabxdev.com.br",
-                "image": "https://www.gabxdev.com.br/assests/gabriel.jpeg",
-                "description": "Portfólio de Gabriel Oliveira Durães, engenheiro de software backend. Transformo ideias em soluções robustas e escaláveis.",
-                "email": "mailto:bielepicgame14@gmail.com",
-                "sameAs": [
-                    "https://github.com/gabxdev1",
-                    "https://www.linkedin.com/in/",
-                    "https://www.instagram.com/gabs.olid/",
-                    "https://wa.me/5535997004497?text=Olá,%20eu%20sou%20o%20Gabriel",
-                    "https://www.linkedin.com/in/gabxdev/"
-                ],
-                "worksFor": {
-                    "@type": "Organization",
-                    "name": "Itaú Unibanco"
+            "@graph": [
+                {
+                    "@type": "WebSite",
+                    "@id": "https://www.gabxdev.com.br/#website",
+                    "url": "https://www.gabxdev.com.br/",
+                    "name": "Gabriel Oliveira Duraes - Portfolio",
+                    "description": "Portfolio profissional de Gabriel Oliveira Duraes, engenheiro de software backend.",
+                    "inLanguage": "pt-BR",
+                    "publisher": {
+                        "@id": "https://www.gabxdev.com.br/#person"
+                    }
                 },
-                "alumniOf": [
-                    {
-                        "@type": "EducationalOrganization",
-                        "name": "SENAI",
-                        "description": "Technical Course in Computer Networks"
+                {
+                    "@type": "WebPage",
+                    "@id": "https://www.gabxdev.com.br/#webpage",
+                    "url": "https://www.gabxdev.com.br/",
+                    "name": "Gabriel Oliveira Duraes | Engenheiro de Software Backend",
+                    "description": "Engenheiro de software no Itau Unibanco, com foco em credito rotativo e sistemas de alta disponibilidade.",
+                    "inLanguage": "pt-BR",
+                    "isPartOf": {
+                        "@id": "https://www.gabxdev.com.br/#website"
                     },
-                    {
-                        "@type": "EducationalOrganization",
-                        "name": "UNIS",
-                        "description": "Undergraduate Degree in Systems Analysis and Development"
-                    }
-                ],
-                "knowsAbout": [
-                    "JavaScript",
-                    "Node.js",
-                    "C",
-                    "Java",
-                    "MongoDB",
-                    "SQL",
-                    "HTML",
-                    "CSS",
-                    "AWS",
-                    "Python",
-                    "Spring Boot",
-                    "Kafka",
-                    "RabbitMQ",
-                    "Microservice"
-                ],
-                "contactPoint": [
-                    {
-                        "@type": "ContactPoint",
-                        "telephone": "+55 35 99700-4497",
-                        "contactType": "Personal",
-                        "email": "mailto:gabrieloliveiraduraes.dev@gmail.com",
-                        "areaServed": "Brazil",
-                        "availableLanguage": [
-                            "Portuguese",
-                            "English"
-                        ]
-                    }
-                ]
-            }
+                    "about": {
+                        "@id": "https://www.gabxdev.com.br/#person"
+                    },
+                    "dateModified": "2026-02-22"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https://www.gabxdev.com.br/#person",
+                    "name": "Gabriel Oliveira Duraes",
+                    "url": "https://www.gabxdev.com.br/",
+                    "image": "https://www.gabxdev.com.br/assests/gabriel.jpeg",
+                    "jobTitle": "Engenheiro de Software Backend",
+                    "description": "Engenheiro de software no Itau Unibanco, atuando no dominio de credito rotativo com Java, Python, AWS, Kafka, RabbitMQ e Datadog.",
+                    "worksFor": {
+                        "@type": "Organization",
+                        "name": "Itau Unibanco"
+                    },
+                    "sameAs": [
+                        "https://github.com/gabxdev1",
+                        "https://www.linkedin.com/in/gabxdev/",
+                        "https://www.instagram.com/gabs.olid/",
+                        "https://www.gabxdev.com.br/"
+                    ],
+                    "alumniOf": [
+                        {
+                            "@type": "EducationalOrganization",
+                            "name": "SENAI",
+                            "description": "Technical Course in Computer Networks"
+                        },
+                        {
+                            "@type": "EducationalOrganization",
+                            "name": "UNIS",
+                            "description": "Undergraduate Degree in Systems Analysis and Development"
+                        }
+                    ],
+                    "knowsAbout": [
+                        "Java",
+                        "Python",
+                        "AWS",
+                        "Kafka",
+                        "RabbitMQ",
+                        "Datadog",
+                        "Spring Boot",
+                        "Microservices",
+                        "Backend Architecture",
+                        "High Availability Systems",
+                        "C"
+                    ],
+                    "subjectOf": [
+                        {
+                            "@type": "CreativeWork",
+                            "name": "Rinha de Backend",
+                            "description": "Participacao ativa em desafios de backend com arquiteturas Java otimizadas para baixa latencia e alto throughput."
+                        }
+                    ],
+                    "contactPoint": [
+                        {
+                            "@type": "ContactPoint",
+                            "telephone": "+55 35 99700-4497",
+                            "contactType": "Personal",
+                            "email": "mailto:gabrieloliveiraduraes.dev@gmail.com",
+                            "areaServed": "BR",
+                            "availableLanguage": [
+                                "pt-BR",
+                                "en"
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     </script>
 </head>
 <body>
     <header id="header" class="hidden">
-        <h1 translate="no" ><span>G</span>abriel</h1>
-        <img src="assests/menu.png" alt="menu" id="menu" onclick="verificar()">
+        <h1 translate="no"><span>G</span>abriel</h1>
+        <img src="assests/menu.png" alt="Abrir menu de navegacao" id="menu" onclick="verificar()">
     </header>
 
-    <nav id="container__navegacao" class="menu-nav" translate="no">
+    <nav id="container__navegacao" class="menu-nav" translate="no" aria-label="Navegacao principal">
         <div class="container_listas">
             <ul class="container-nav">
                 <li class="lista-nav" translate="no">#<a href="#homeID" target="_self" class="navegacao">home</a></li>
                 <li class="lista-nav" translate="no">#<a href="#aboutID" target="_self" class="navegacao">about-me</a></li>
                 <li class="lista-nav" translate="no">#<a href="#worksID" target="_self" class="navegacao">works</a></li>
                 <li class="lista-nav" translate="no">#<a href="#projectsID" target="_self" class="navegacao">projects</a></li>
-                <li class="lista-nav">#<a href="#skilsID" target="_self" class="navegacao">skilss</a></li>
+                <li class="lista-nav">#<a href="#skilsID" target="_self" class="navegacao">skills</a></li>
             </ul>
             <ul class="container_social" translate="no">
-                <li class="container-linha"><hr  class="linha"></li>
-                <li class="transform"><a href="https://github.com/gabxdev1" target="_blank"><img src="./assests/github.png" alt="Logo do Github"></a></li>
-                <li class="transform"><a href="https://www.linkedin.com/in/gabxdev/" target="_blank"><img src="assests/linkedin.png" alt="Logo do Linkedin"></a></li>
-                <li class="transform"><a href="https://wa.me/5535997004497?text=Ol%C3%A1%2C%20eu%20sou%20o%20Gabriel." target="_blank"><img src="assests/whatsapp.png" alt="Logo do Whatsapp"></a></li>
-<!--                <li class="transform"><a href="https://www.instagram.com/gabs.olid/" target="_blank"><img src="assests/instagram.png" alt="Logo do Instagram"></a></li>-->
+                <li class="container-linha"><hr class="linha"></li>
+                <li class="transform"><a href="https://github.com/gabxdev1" target="_blank" rel="noopener noreferrer"><img src="./assests/github.png" alt="GitHub de Gabriel Oliveira Duraes"></a></li>
+                <li class="transform"><a href="https://www.linkedin.com/in/gabxdev/" target="_blank" rel="noopener noreferrer"><img src="assests/linkedin.png" alt="LinkedIn de Gabriel Oliveira Duraes"></a></li>
+                <li class="transform"><a href="https://wa.me/5535997004497?text=Ol%C3%A1%2C%20eu%20sou%20o%20Gabriel." target="_blank" rel="noopener noreferrer"><img src="assests/whatsapp.png" alt="WhatsApp de Gabriel Oliveira Duraes"></a></li>
             </ul>
         </div>
     </nav>
 
+    <main>
+        <section class="home hide" id="homeID">
+            <p class="hello hidden">Ola, eu sou</p>
+            <h1 class="hidden" translate="no">Gabriel Oliveira Duraes</h1>
+            <h2 class="hidden">Engenheiro de Software <span style="display: inline;">Backend</span></h2>
+            <p class="texto hidden">Atuo no Itaú Unibanco com foco em crédito rotativo, construindo sistemas financeiros de alta disponibilidade.</p>
+            <p class="texto texto-secundario hidden">Especializado em Java, Python, AWS, Kafka, RabbitMQ e Datadog.</p>
+            <a href="https://wa.me/5535997004497?text=Ol%C3%A1%2C%20eu%20sou%20o%20Gabriel." target="_blank" rel="noopener noreferrer" translate="no">Contact me</a>
+            <div class="quadrado91"></div>
+        </section>
 
-    <section class="home hide" id="homeID">
-        <p class="hello hidden"><span style="display: inline;">Hello </span>I'm</p>
-        <h1 class="hidden" translate="no">Gabriel Oliveira</h1>
-        <h2 class="hidden">Software <span style="display: inline;">Engineer</span></h2>
-        <p class="texto hidden">Passion for building robust and scalable systems</p>
-        <a href="https://wa.me/5535997004497?text=Ol%C3%A1%2C%20eu%20sou%20o%20Gabriel." target="_blank" class="hidden" translate="no">Contact me!!</a>
-        <div class="quadrado91"></div>
-    </section>
+        <section class="about-me hide" id="aboutID">
+            <div class="about-titulo" id="aboutMe">
+                <h2 class="hidden"><span>#</span>About-me</h2>
+                <hr class="hidden">
+            </div>
 
+            <img src="assests/gabriel.jpeg" alt="Gabriel Oliveira Duraes apresentando projeto tecnico" class="hidden" loading="lazy" decoding="async">
 
-    <section class="about-me hide" id="aboutID">
+            <p class="hidden">Sou engenheiro de software no Itau Unibanco, no dominio de credito rotativo, desenvolvendo solucoes backend resilientes para produtos financeiros críticos.</p>
+            <p class="hidden">Minha atuação combina arquitetura de microsserviços, mensageria e observabilidade para reduzir latência e manter estabilidade em alto volume de transações.</p>
 
-        <div class="about-titulo" id="aboutMe">
-            <h2 class="hidden"><span>#</span>About-me</h2>
-            <hr class="hidden">
-        </div>
+            <ul>
+                <li class="lista hidden"><strong>Especialização:</strong> Java, Python, AWS, RabbitMQ, Kafka e Datadog.</li>
+                <li class="lista hidden"><strong>Formação:</strong>Redes de Computadores e Análise e Desenvolvimento de Sistemas (ADS).</li>
+            </ul>
 
+            <div class="quadrado155"></div>
+            <div class="dotted-square"></div>
+        </section>
 
-        <img src="assests/gabriel.jpeg" alt="Foto do Gabriel aprensentando o TCC" class="hidden">
-    
+        <section class="works hide" id="worksID">
+            <div class="about-titulo">
+                <h2 class="hidden"><span>#</span>Work Experiences</h2>
+                <hr class="hidden">
+            </div>
 
-        <p class="hidden">I am passionate about solving problems and turning ideas into efficient solutions.</p>
-
-        <ul>
-            <li class="lista hidden">Technical Course in Computer Networks – SENAI (1 and a half years)</li>
-            <li class="lista hidden">Undergraduate Degree in Systems Analysis and Development – UNIS (currently studying)</li>
-        </ul>
-
-        <div class="quadrado155"></div>
-        
-        <div class="dotted-square"></div>
-    </section>
-
-
-    <section class="works hide" id="worksID">
-        <div class="about-titulo" id="">
-            <h2 class="hidden"><span>#</span>Work Experiences</h2>
-            <hr class="hidden">
-        </div>
-
-        <div class="card hidden">
-            <p class="ano">2025 - Now</p>
-            <h2 class="titulo">Software Engineer -  <span>Itaú Unibanco</span></h2>
-            <p class="stack"><span>Stack:</span> Java, Python, AWS, RabbitMQ, Kafka, Datadog.</p>
-        </div>
-
-        <div class="card hidden">
-            <p class="ano">2023 - 2024</p>
-            <h2 class="titulo">IT Intern -  <span>Rx Construtora</span></h2>
-            <p class="stack"><span>Stack:</span> Excel VBA, computer maintenance.</p>
-        </div>
-
-        <div class="quadrado155W"></div>
-        <div class="dotted-squareW"></div>
-    </section>
-
-    <section id="projectsID" class="hide">
-        <div class="about-titulo" id="">
-            <h2 class="hidden"><span>#</span>Projects</h2>
-            <hr class="hidden">
-        </div>
+            <div class="card hidden">
+                <p class="ano">2025 - Atual</p>
+                <h2 class="titulo">Software Engineer - <span>Itau Unibanco</span></h2>
+                <p class="stack"><span>Dominio:</span> Produto de Credito rotativo.</p>
+                <p class="stack"><span>Responsabilidades:</span> Desenvolvimento de sistemas de alta disponibilidade e resiliência para produtos financeiros.</p>
+                <p class="stack"><span>Stack:</span> Java, Python, AWS, RabbitMQ, Kafka, Datadog.</p>
+            </div>
 
 
-        <div class="container_card">
+            <div class="card hidden">
+                <p class="ano">2023 - 2024</p>
+                <h2 class="titulo">IT Intern - <span>Rx Construtora</span></h2>
+                <p class="stack"><span>Stack:</span> Excel VBA, manutencao de computadores.</p>
+            </div>
 
-            <div class="cards hidden">
+            <div class="quadrado155W"></div>
+            <div class="dotted-squareW"></div>
+        </section>
 
-                <img src="assests/zap.png" alt="Foto do Projeto">
+        <section id="projectsID" class="hide">
+            <div class="about-titulo">
+                <h2 class="hidden"><span>#</span>Projects</h2>
+                <hr class="hidden">
+            </div>
 
-                <p class="" translate="no">RABBITMQ POSTGRESQL JAVA SPRING BOOT</p>
-
-                <div class="container__infos">
-                    <h2 class="" translate="no">Zap</h2>
-                    <p>Chat ao vivo inspirado no WhatsApp com uma arquitetura orientada a eventos.</p>
-                    <a target="_blank" href="https://www.linkedin.com/posts/gabxdev_java-opentowork-springboot-activity-7324802488736329728-rgus?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfKo_wBw3j5dinugldkZCPpsGPB1_W81Rw" translate="no">View <~></a>
+            <div class="container_card">
+                <div class="cards hidden">
+                    <img src="assests/zap.png" alt="Projeto de chat em tempo real com Java, RabbitMQ e PostgreSQL" loading="lazy" decoding="async">
+                    <p translate="no">RABBITMQ POSTGRESQL JAVA SPRING BOOT</p>
+                    <div class="container__infos">
+                        <h2 translate="no">Zap</h2>
+                        <p>Chat ao vivo inspirado no WhatsApp com arquitetura orientada a eventos para maior escalabilidade.</p>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/posts/gabxdev_java-opentowork-springboot-activity-7324802488736329728-rgus?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfKo_wBw3j5dinugldkZCPpsGPB1_W81Rw" translate="no">View &lt;~&gt;</a>
+                    </div>
                 </div>
 
             </div>
+        </section>
 
-        </div>
-
-    </section>
-
-    <section id="skilsID">
-        <div class="about-titulo" id="">
-            <h2 class="hidden"><span>#</span>Skills</h2>
-            <hr class="hidden">
-        </div>
-
-        <div class="container__skills">
-            <div class="box">
-                <div class="icons">
-                    <i class='bx bxl-java my-icon'></i>
-                </div>
-                <h3>Java</h3>
+        <section id="skilsID" class="hide">
+            <div class="about-titulo">
+                <h2 class="hidden"><span>#</span>Skills</h2>
+                <hr class="hidden">
             </div>
 
-            <div class="box">
-                <div class="icons">
-                    <i class='bx bxl-spring-boot my-icon'></i>
+            <div class="container__skills">
+                <div class="box">
+                    <div class="icons">
+                        <i class='bx bxl-java my-icon'></i>
+                    </div>
+                    <h3>Java</h3>
                 </div>
-                <h3>Spring Boot</h3>
-            </div>
 
-            <div class="box">
-                <div class="icons">
-                    <i class='bx bxl-aws my-icon'></i>
+                <div class="box">
+                    <div class="icons">
+                        <i class='bx bxl-python my-icon'></i>
+                    </div>
+                    <h3>Python</h3>
                 </div>
-                <h3>Amazon Web Services</h3>
-            </div>
 
-            <div class="box">
-                <div class="icons">
-                    <i class='bx bxl-postgresql my-icon'></i>
+                <div class="box">
+                    <div class="icons">
+                        <i class='bx bxl-spring-boot my-icon'></i>
+                    </div>
+                    <h3>Spring Boot</h3>
                 </div>
-                <h3>PostgreSQL</h3>
-            </div>
 
-            <div class="box">
-                <div class="icons">
-                    <i class='bx bxl-docker my-icon'></i>
+                <div class="box">
+                    <div class="icons">
+                        <i class='bx bxl-aws my-icon'></i>
+                    </div>
+                    <h3>Amazon Web Services</h3>
                 </div>
-                <h3>Docker</h3>
-            </div>
 
-            <div class="box">
-                <div class="icons">
-                    <i class='bx bx-selection my-icon'></i>
+                <div class="box">
+                    <div class="icons">
+                        <i class='bx bxl-postgresql my-icon'></i>
+                    </div>
+                    <h3>PostgreSQL</h3>
                 </div>
-                <h3>Microservices</h3>
-            </div>
 
-            <div class="box">
-                <div class="icons">
-                    <i class='bx bx-transfer-alt my-icon'></i>
+                <div class="box">
+                    <div class="icons">
+                        <i class='bx bxl-docker my-icon'></i>
+                    </div>
+                    <h3>Docker</h3>
                 </div>
-                <h3>Websockets</h3>
-            </div>
 
-            <div class="box">
-                <div class="icons">
-                    <i class='bx bx-mail-send my-icon'></i>
+                <div class="box">
+                    <div class="icons">
+                        <i class='bx bx-selection my-icon'></i>
+                    </div>
+                    <h3>Microservices</h3>
                 </div>
-                <h3>Apache Kafka</h3>
-            </div>
 
-            <div class="box">
-                <div class="icons">
-                    <i class='bx bx-mail-send my-icon'></i>
+                <div class="box">
+                    <div class="icons">
+                        <i class='bx bx-transfer-alt my-icon'></i>
+                    </div>
+                    <h3>Websockets</h3>
                 </div>
-                <h3>RabbitMQ</h3>
-            </div>
 
-            <div class="box">
-                <div class="icons">
-                    <i class='bx bx-data my-icon'></i>
+                <div class="box">
+                    <div class="icons">
+                        <i class='bx bx-mail-send my-icon'></i>
+                    </div>
+                    <h3>Apache Kafka</h3>
                 </div>
-                <h3>SQL</h3>
+
+                <div class="box">
+                    <div class="icons">
+                        <i class='bx bx-mail-send my-icon'></i>
+                    </div>
+                    <h3>RabbitMQ</h3>
+                </div>
+
+                <div class="box">
+                    <div class="icons">
+                        <i class='bx bx-line-chart my-icon'></i>
+                    </div>
+                    <h3>Datadog</h3>
+                </div>
+
+                <div class="box">
+                    <div class="icons">
+                        <i class='bx bx-data my-icon'></i>
+                    </div>
+                    <h3>SQL</h3>
+                </div>
             </div>
-
-        </div>
-
-    </section>
+        </section>
+    </main>
 
     <footer id="footerID" class="hide">
         <hr>
         <div class="contato">
             <h2 translate="no"><span>G</span>abriel</h2>
-            <a href="mailto:gabrieloliveiraduraes.dev@gmail.com" target="_blank" translate="no">gabrieloliveiraduraes.dev&#64;gmail.com</a>
+            <a href="mailto:gabrieloliveiraduraes.dev@gmail.com" target="_blank" rel="noopener noreferrer" translate="no">gabrieloliveiraduraes.dev&#64;gmail.com</a>
         </div>
 
         <div class="contatos" translate="no">
             <h2>Media</h2>
             <ul class="container_social container_social_2">
-                <li><a href="https://github.com/gabxdev1" target="_blank"><img src="assests/github.png" alt="Logo do Github"></a></li>
-                <li><a href="https://www.linkedin.com/in/gabxdev/" target="_blank"><img src="assests/linkedin.png" alt="Logo do Linkedin"></a></li>
-                <li><a href="https://wa.me/5535997004497?text=Ol%C3%A1%2C%20eu%20sou%20o%20Gabriel." target="_blank"><img src="assests/whatsapp.png" alt="Logo do Whatsapp"></a></li>
-<!--                <li><a href="https://www.instagram.com/gabs.olid/" target="_blank"><img src="assests/instagram.png" alt="Logo do Instagram"></a></li>  -->
+                <li><a href="https://github.com/gabxdev1" target="_blank" rel="noopener noreferrer"><img src="assests/github.png" alt="GitHub de Gabriel Oliveira Duraes" loading="lazy" decoding="async"></a></li>
+                <li><a href="https://www.linkedin.com/in/gabxdev/" target="_blank" rel="noopener noreferrer"><img src="assests/linkedin.png" alt="LinkedIn de Gabriel Oliveira Duraes" loading="lazy" decoding="async"></a></li>
+                <li><a href="https://wa.me/5535997004497?text=Ol%C3%A1%2C%20eu%20sou%20o%20Gabriel." target="_blank" rel="noopener noreferrer"><img src="assests/whatsapp.png" alt="WhatsApp de Gabriel Oliveira Duraes" loading="lazy" decoding="async"></a></li>
             </ul>
         </div>
 
-        <p translate="no">&copy; Copyright 2024. Made by Gabriel</p>
+        <p translate="no">&copy; Copyright 2026. Made by Gabriel</p>
+    </footer>
 
-    </footer>   
-    <script src="script.js" ></script>    
+    <script src="script.js"></script>
 </body>
 </html>

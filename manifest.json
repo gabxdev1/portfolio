@@ -1,15 +1,15 @@
 {
-    "short_name": "Gabriel Portfolio",
-    "name": "Gabriel Portfolio",
+    "short_name": "GabxDev",
+    "name": "Gabriel Oliveira Durães Portfolio",
     "icons": [
         {
-            "src": "./assests/favicon.png",
-            "type": "image/png",
-            "sizes": "16x16"
+            "src": "./assests/favicon.ico",
+            "type": "image/x-icon",
+            "sizes": "16x16 32x32 48x48"
         }
     ],
-    "start_url": "/#homeID",
+    "start_url": "/",
     "display": "standalone",
-    "theme_color": "#3498db",
-    "background_color": "#ffffff"
+    "theme_color": "#282C33",
+    "background_color": "#282C33"
 }

@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://www.gabxdev.com.br/sitemap.xml
+Host: www.gabxdev.com.br
